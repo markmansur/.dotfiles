@@ -1,4 +1,4 @@
-export ZFILES=$HOME/dotfiles/zsh
+export ZFILES=$HOME/.dotfiles/zsh
 
 source $ZFILES/alias.zsh
 source $ZFILES/language.zsh
