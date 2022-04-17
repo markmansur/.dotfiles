@@ -5,7 +5,8 @@ local options = {
     softtabstop = 4,
     shiftwidth = 4,
     expandtab = true,
-    scrolloff = 8
+    scrolloff = 8,
+    termguicolors = true
 }
 
 for k, v in pairs(options) do
