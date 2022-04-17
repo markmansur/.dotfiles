@@ -9,6 +9,9 @@ alias vim="nvim"
 
 # git
 alias gst="git status"
+alias gp="git push"
+alias ga="git add ."
+alias gc="git commit"
 
 #python
 alias python="python3"
