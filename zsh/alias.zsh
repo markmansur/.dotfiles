@@ -10,7 +10,8 @@ alias vim="nvim"
 # git
 alias gst="git status"
 alias gp="git push"
-alias ga="git add ."
+alias ga="git add"
+alias gaa="git add ."
 alias gc="git commit"
 
 #python
