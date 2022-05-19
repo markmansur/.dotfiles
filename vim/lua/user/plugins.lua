@@ -44,6 +44,8 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-path" -- path completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-nvim-lsp"
+  use "hrsh7th/cmp-nvim-lsp-signature-help"
+  use "windwp/nvim-autopairs" -- auto close brackets/quotes
 
   -- Snippets
   use "L3MON4D3/LuaSnip" --snippet engine
@@ -52,6 +54,9 @@ return packer.startup(function(use)
   -- LSP
   use "neovim/nvim-lspconfig" -- enable lsp
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+
+  -- File explorer
+  use 'preservim/nerdtree'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
