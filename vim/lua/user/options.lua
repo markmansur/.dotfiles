@@ -7,6 +7,7 @@ local options = {
     expandtab = true,
     scrolloff = 8,
     termguicolors = true
+    wrap = false
 }
 
 for k, v in pairs(options) do
