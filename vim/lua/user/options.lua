@@ -6,7 +6,7 @@ local options = {
     shiftwidth = 4,
     expandtab = true,
     scrolloff = 8,
-    termguicolors = true
+    termguicolors = true,
     wrap = false
 }
 
