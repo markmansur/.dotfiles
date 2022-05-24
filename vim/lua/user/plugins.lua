@@ -1,6 +1,6 @@
 local fn = vim.fn
 
--- Automatically install packer
+-- Automatically install packer if not already installed
 local install_path = fn.stdpath "data" .. "/site/pack/packer/start/packer.nvim"
 if fn.empty(fn.glob(install_path)) > 0 then
   PACKER_BOOTSTRAP = fn.system {
@@ -57,6 +57,8 @@ return packer.startup(function(use)
 
   -- File explorer
   use 'preservim/nerdtree'
+  use 'ryanoasis/vim-devicons' -- dev icons
+  use 'tiagofumo/vim-nerdtree-syntax-highlight' -- dev icon colors
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
