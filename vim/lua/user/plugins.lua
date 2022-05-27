@@ -60,6 +60,12 @@ return packer.startup(function(use)
   use 'ryanoasis/vim-devicons' -- dev icons
   use 'tiagofumo/vim-nerdtree-syntax-highlight' -- dev icon colors
 
+  -- Telescope
+  use 'BurntSushi/ripgrep' -- needed for telescope live grep
+
+  -- Treesitter
+  use 'nvim-treesitter/nvim-treesitter'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
