@@ -37,6 +37,7 @@ return packer.startup(function(use)
 
   -- Color scheme
   use "gruvbox-community/gruvbox"
+  use 'MaxMEllon/vim-jsx-pretty' -- JSX highlighting
 
   -- Completion
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -61,6 +62,7 @@ return packer.startup(function(use)
   use 'tiagofumo/vim-nerdtree-syntax-highlight' -- dev icon colors
 
   -- Telescope
+  use 'nvim-telescope/telescope.nvim'
   use 'BurntSushi/ripgrep' -- needed for telescope live grep
 
   -- Treesitter
