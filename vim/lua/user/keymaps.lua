@@ -29,3 +29,6 @@ keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 -- Navigate buffers
 keymap("n", "<S-h>", ":bnext<CR>", opts)
 keymap("n", "<S-l>", ":bprevious<CR>", opts)
+
+-- Telescope
+keymap("n", "<leader>f", ":Telescope find_files <CR>", opts)
