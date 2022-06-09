@@ -34,6 +34,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use 'vim-airline/vim-airline'
 
   -- Color scheme
   use "gruvbox-community/gruvbox"
@@ -57,9 +58,8 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
 
   -- File explorer
-  use 'preservim/nerdtree'
-  use 'ryanoasis/vim-devicons' -- dev icons
-  use 'tiagofumo/vim-nerdtree-syntax-highlight' -- dev icon colors
+  use 'kyazdani42/nvim-tree.lua'
+  use 'kyazdani42/nvim-web-devicons'
 
   -- Telescope
   use 'nvim-telescope/telescope.nvim'
@@ -67,6 +67,9 @@ return packer.startup(function(use)
 
   -- Treesitter
   use 'nvim-treesitter/nvim-treesitter'
+
+  -- Trouble
+  use 'folke/trouble.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

@@ -23,7 +23,8 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
-keymap("n", "<leader>t", ":NERDTreeToggle<CR>", opts)
+-- Nvimtree
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- Navigate buffers
 keymap("n", "<S-h>", ":bnext<CR>", opts)
