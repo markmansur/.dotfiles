@@ -38,6 +38,7 @@ return packer.startup(function(use)
 
   -- Color scheme
   use "gruvbox-community/gruvbox"
+  use 'folke/tokyonight.nvim'
   use 'MaxMEllon/vim-jsx-pretty' -- JSX highlighting
 
   -- Completion
@@ -70,6 +71,9 @@ return packer.startup(function(use)
 
   -- Trouble
   use 'folke/trouble.nvim'
+
+  -- Git
+  use 'lewis6991/gitsigns.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
