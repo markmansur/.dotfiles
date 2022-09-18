@@ -31,4 +31,8 @@ keymap("n", "<S-h>", ":bnext<CR>", opts)
 keymap("n", "<S-l>", ":bprevious<CR>", opts)
 
 -- Telescope
-keymap("n", "<leader>f", ":Telescope find_files <CR>", opts)
+keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
+
+-- Easier file saving
+keymap("n", "<C-S>", ":update<CR>", opts)
+keymap("i", "<C-S>", "<C-o>:update<CR>", opts)
