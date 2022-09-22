@@ -8,7 +8,8 @@ local options = {
     scrolloff = 8,
     termguicolors = true,
     wrap = false,
-    signcolumn = "yes"
+    signcolumn = "yes",
+    splitright = true
 }
 
 for k, v in pairs(options) do
