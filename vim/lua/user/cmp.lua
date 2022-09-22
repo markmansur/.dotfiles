@@ -19,10 +19,10 @@ end
 --   פּ ﯟ   some other good icons
 local kind_icons = {
   Text = "",
-  Method = "m",
-  Function = "",
+  Method = "m ",
+  Function = " ",
   Constructor = "",
-  Field = "",
+  Field = " ",
   Variable = "",
   Class = "",
   Interface = "",
