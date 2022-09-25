@@ -3,6 +3,7 @@
 alias c="clear"
 alias ls="ls -la"
 alias l="ls"
+alias dotfiles="vim ~/.dotfiles/"
 
 # Vim
 alias vim="nvim"
