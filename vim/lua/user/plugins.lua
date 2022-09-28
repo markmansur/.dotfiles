@@ -40,6 +40,7 @@ return packer.startup(function(use)
   use "gruvbox-community/gruvbox"
   use 'folke/tokyonight.nvim'
   use 'MaxMEllon/vim-jsx-pretty' -- JSX highlighting
+  use 'sainnhe/everforest'
 
   -- Completion
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -61,6 +62,7 @@ return packer.startup(function(use)
   -- File explorer
   use 'kyazdani42/nvim-tree.lua'
   use 'kyazdani42/nvim-web-devicons'
+  use 'akinsho/bufferline.nvim'
 
   -- Telescope
   use 'nvim-telescope/telescope.nvim'
