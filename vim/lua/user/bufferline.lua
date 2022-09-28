@@ -12,6 +12,9 @@ require("bufferline").setup{
       end
       return s
     end,
+    indicator = {
+      icon = '⏽'
+    },
     offsets = {
       {
         filetype = "NvimTree",
