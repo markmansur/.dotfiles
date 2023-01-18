@@ -37,3 +37,10 @@ keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
 -- Easier file saving
 keymap("n", "<C-S>", ":update<CR>", opts)
 keymap("i", "<C-S>", "<C-o>:update<CR>", opts)
+
+-- GitSigns
+keymap("n", "<leader>hs", ":Gitsigns stage_hunk<CR>", opts);
+keymap("n", "<leader>hr", ":Gitsigns reset_hunk<CR>", opts);
+keymap("n", "<leader>hp", ":Gitsigns preview_hunk<CR>", opts);
+keymap("n", "<leader>hS", ":Gitsigns stage_buffer<CR>", opts);
+keymap("n", "<leader>hR", ":Gitsigns reset_buffer<CR>", opts);
