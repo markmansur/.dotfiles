@@ -36,6 +36,11 @@ keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
 keymap("n", "<leader>fg", ":Telescope live_grep<CR>", opts)
 keymap("n", "<leader>fr", ":Telescope lsp_references<CR>", opts)
 
+-- Trouble
+keymap("n", "<leader>tr", ":TroubleToggle<CR>", opts)
+keymap("n", "<leader>tw", ":Trouble workspace_diagnostics<CR>", opts)
+keymap("n", "<leader>td", ":Trouble document_diagnostics<CR>", opts)
+
 -- Easier file saving
 keymap("n", "<C-S>", ":update<CR>", opts)
 keymap("i", "<C-S>", "<C-o>:update<CR>", opts)
