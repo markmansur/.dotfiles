@@ -33,6 +33,8 @@ keymap("n", "<S-w>", ":bprevious | bd#<CR>", opts)
 
 -- Telescope
 keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
+keymap("n", "<leader>fg", ":Telescope live_grep<CR>", opts)
+keymap("n", "<leader>fr", ":Telescope lsp_references<CR>", opts)
 
 -- Easier file saving
 keymap("n", "<C-S>", ":update<CR>", opts)
