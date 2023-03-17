@@ -80,6 +80,9 @@ return packer.startup(function(use)
   -- Comments
   use 'tpope/vim-commentary'
 
+  -- Prettier
+  use 'prettier/vim-prettier'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
