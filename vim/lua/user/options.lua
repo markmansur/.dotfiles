@@ -8,7 +8,7 @@ local options = {
     scrolloff = 8,
     termguicolors = true,
     wrap = false,
-    signcolumn = "yes",
+    signcolumn = "auto:9",
     splitright = true
 }
 
