@@ -5,5 +5,16 @@ end
 
 
 nvim_tree.setup {
-
+  renderer = {
+    icons = {
+      glyphs = {
+        folder = {
+          default = "",
+          open = "",
+          empty = "",
+          empty_open = ""
+        }
+      }
+    }
+  }
 }
