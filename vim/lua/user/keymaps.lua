@@ -51,3 +51,7 @@ keymap("n", "<leader>hr", ":Gitsigns reset_hunk<CR>", opts);
 keymap("n", "<leader>hp", ":Gitsigns preview_hunk<CR>", opts);
 keymap("n", "<leader>hS", ":Gitsigns stage_buffer<CR>", opts);
 keymap("n", "<leader>hR", ":Gitsigns reset_buffer<CR>", opts);
+
+-- Splits
+keymap("n", "<leader>v", ":vsplit<CR>", opts);
+keymap("n", "<leader>h", ":split<CR>", opts)
