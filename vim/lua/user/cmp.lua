@@ -131,3 +131,25 @@ cmp.setup {
     native_menu = false,
   },
 }
+
+-- Setup autopairs to add brackets when using nvim-cmp
+local cmp_autopairs = require('nvim-autopairs.completion.cmp')
+local handlers = require('nvim-autopairs.completion.handlers')
+
+cmp.event:on(
+  'confirm_done',
+  cmp_autopairs.on_confirm_done({
+    filetypes = {
+      ["*"] = {
+        ["("] ={
+          kind = {
+            cmp.lsp.CompletionItemKind.Class,
+            cmp.lsp.CompletionItemKind.Function,
+            cmp.lsp.CompletionItemKind.Method,
+          },
+          handler = handlers["*"]
+        }
+      }
+    }
+  }
+))
