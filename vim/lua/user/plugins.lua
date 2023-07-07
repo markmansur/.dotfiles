@@ -37,7 +37,7 @@ return packer.startup(function(use)
   use 'vim-airline/vim-airline'
 
   -- Color scheme
-  use "gruvbox-community/gruvbox"
+  use "ellisonleao/gruvbox.nvim"
   use 'folke/tokyonight.nvim'
   use 'MaxMEllon/vim-jsx-pretty' -- JSX highlighting
   use 'sainnhe/everforest'
