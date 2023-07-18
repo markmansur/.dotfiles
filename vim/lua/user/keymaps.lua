@@ -30,6 +30,7 @@ keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-w>", ":bprevious | bd#<CR>", opts)
+keymap("n", "<S-q>", ":q<CR>", opts)
 
 -- Telescope
 keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
@@ -55,3 +56,4 @@ keymap("n", "<leader>hR", ":Gitsigns reset_buffer<CR>", opts);
 -- Splits
 keymap("n", "<leader>v", ":vsplit<CR>", opts);
 keymap("n", "<leader>h", ":split<CR>", opts)
+
