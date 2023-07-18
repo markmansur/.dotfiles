@@ -112,10 +112,10 @@ cmp.setup {
   sources = {
     { name = "nvim_lsp" },
     { name = "nvim_lua" },
-    { name = "luasnip" },
     { name = 'nvim_lsp_signature_help' },
-    { name = "buffer" },
     { name = "path" },
+    { name = "luasnip" },
+    { name = "buffer"}
   },
   confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,
