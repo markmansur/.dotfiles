@@ -50,6 +50,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-nvim-lsp-signature-help"
   use "windwp/nvim-autopairs" -- auto close brackets/quotes
+  use "windwp/nvim-ts-autotag"
   use "tpope/vim-surround"
 
   -- Snippets
