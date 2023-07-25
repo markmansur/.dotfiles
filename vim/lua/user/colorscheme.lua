@@ -1,3 +1,23 @@
-require("gruvbox").setup({})
+local status_ok, gruvbox= pcall(require, "gruvbox")
+if not status_ok then
+	return
+end
 
-vim.cmd([[colorscheme gruvbox]])
+vim.o.background = "dark" -- 'dark' | 'light'
+contrast = "soft" -- "hard" | "soft" | ""
+
+palette = require("gruvbox/palette").get_base_colors(vim.o.background, contrast)
+
+gruvbox.setup({
+  contrast = contrast,
+  overrides = {
+    NvimTreeFolderIcon = {
+      fg = palette.orange
+    },
+    NvimTreeEndOfBuffer = {
+      fg = palette.bg0
+    }
+  }
+})
+
+vim.cmd('colorscheme gruvbox')
