@@ -4,7 +4,7 @@ if not status_ok then
 end
 
 vim.o.background = "dark" -- 'dark' | 'light'
-contrast = "soft" -- "hard" | "soft" | ""
+contrast = "hard" -- "hard" | "soft" | ""
 
 palette = require("gruvbox/palette").get_base_colors(vim.o.background, contrast)
 
