@@ -34,7 +34,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
-  use 'vim-airline/vim-airline'
+  use "nvim-lualine/lualine.nvim"
 
   -- Color scheme
   use "ellisonleao/gruvbox.nvim"
@@ -64,7 +64,6 @@ return packer.startup(function(use)
   -- File explorer
   use 'kyazdani42/nvim-tree.lua'
   use 'kyazdani42/nvim-web-devicons'
-  use 'akinsho/bufferline.nvim'
 
   -- Telescope
   use 'nvim-telescope/telescope.nvim'
