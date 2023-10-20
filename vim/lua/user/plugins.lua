@@ -38,7 +38,7 @@ return packer.startup(function(use)
   use 'akinsho/bufferline.nvim'
 
   -- Color scheme
-  use "ellisonleao/gruvbox.nvim"
+  use { "ellisonleao/gruvbox.nvim", commit='fc2b7df3d8384e1ba32d0c5d515931f5ea366eb1'}
   use 'folke/tokyonight.nvim'
   use 'MaxMEllon/vim-jsx-pretty' -- JSX highlighting
   use 'sainnhe/everforest'
