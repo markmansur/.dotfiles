@@ -16,6 +16,9 @@ gruvbox.setup({
     },
     NvimTreeEndOfBuffer = {
       fg = palette.bg0
+    },
+    SignColumn = {
+      bg = palette.bg0
     }
   }
 })
