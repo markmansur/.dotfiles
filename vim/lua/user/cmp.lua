@@ -48,7 +48,22 @@ local kind_icons = {
 }
 -- find more here: https://www.nerdfonts.com/cheat-sheet
 
+local cmp_compare = cmp.config.compare
 cmp.setup {
+  sorting = {
+    comparators = {
+				cmp_compare.offset,
+        cmp_compare.exact,
+        cmp_compare.scopes,
+        cmp_compare.score,
+        -- cmp_compare.recently_used,
+        cmp_compare.locality,
+        cmp_compare.kind,
+        -- cmp_compare.sort_text,
+        cmp_compare.length,
+        cmp_compare.order
+    }
+  },
   snippet = {
     expand = function(args)
       luasnip.lsp_expand(args.body) -- For `luasnip` users.
