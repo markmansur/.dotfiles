@@ -10,6 +10,7 @@ palette = require("gruvbox/palette").get_base_colors(vim.o.background, contrast)
 
 gruvbox.setup({
   contrast = contrast,
+  transparent_mode = true,
   overrides = {
     NvimTreeFolderIcon = {
       fg = palette.orange
