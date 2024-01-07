@@ -69,7 +69,6 @@ return packer.startup(function(use)
 
   -- Telescope
   use 'nvim-telescope/telescope.nvim'
-  use 'BurntSushi/ripgrep' -- needed for telescope live grep
 
   -- Treesitter
   use 'nvim-treesitter/nvim-treesitter'
