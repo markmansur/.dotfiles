@@ -81,6 +81,7 @@ return packer.startup(function(use)
 
   -- Comments
   use 'tpope/vim-commentary'
+  use 'JoosepAlviste/nvim-ts-context-commentstring'
 
   -- Prettier
   use 'prettier/vim-prettier'
