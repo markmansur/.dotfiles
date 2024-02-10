@@ -10,7 +10,8 @@ local options = {
     wrap = false,
     signcolumn = "yes",
     splitright = true,
-    pumheight = 8
+    pumheight = 8,
+    clipboard = 'unnamed'
 }
 
 for k, v in pairs(options) do
