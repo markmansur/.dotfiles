@@ -35,9 +35,9 @@ keymap("n", "<S-w>", ":bprevious | bd#<CR>", opts)
 keymap("n", "<S-q>", ":q<CR>", opts)
 
 -- Telescope
-keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
-keymap("n", "<leader>fg", ":Telescope live_grep<CR>", opts)
-keymap("n", "<leader>fr", ":Telescope lsp_references<CR>", opts)
+keymap("n", "<leader>f", ":Telescope find_files<CR>", opts)
+keymap("n", "<leader>f", ":Telescope live_grep<CR>", opts)
+keymap("n", "<leader>r", ":Telescope lsp_references<CR>", opts)
 
 -- Trouble
 keymap("n", "<leader>tr", ":TroubleToggle<CR>", opts)
