@@ -26,6 +26,7 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Nvimtree
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<leader>oe", ":NvimTreeFindFile<CR>", opts)
 
 -- Navigate buffers
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
